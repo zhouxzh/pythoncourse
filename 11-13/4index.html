@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>网页源代码演示</title>
+        <meta name="author" content="董付国">
+        <meta name="description" content="《Python网络程序设计》教材示例">
+        <meta name="keywords" content="Python小屋,董付国,Python系列教材" />
+        <script type="application/javascript">
+            //单击按钮时执行的函数
+            function btnClick() {
+                alert('ok');
+            }
+        </script>
+        <style type="text/css">
+            /*设置段落中文字的字号*/
+            p {
+                font-size: 24px;
+            }
+            .redText{
+                color: red;
+            }
+            table{
+                margin: auto;
+                border-collapse: collapse;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>一级标题</h1>
+        <h2>二级标题</h2>
+        <h3>三级标题</h3>
+        <div style="text-align: center;">
+            <h3>网页中的表格</h3>
+            <table border="1">
+                <tr>
+                    <td class="redText">第一行第一列</td>
+                    <td>第一行第二列</td>
+                </tr>
+                <tr>
+                    <td>第二行第一列</td>
+                    <td>第二行第二列</td>
+                </tr>
+            </table>
+        </div>
+        <a href="https://mp.weixin.qq.com/s/u9FeqoBaA3Mr0fPCUMbpqA" target="_blank">Python小屋1000篇历史文章清单</a>
+        <p>
+            <span style="color: red;"><strike>红色</strike></span>
+            <span style="color: green;"><strong>绿色</strong></span>
+            <span style="color: blue;"><i>蓝色</i></span>
+            <span style="color: black;"><u>黑色</u></span>
+        </p>
+        <p>
+            1<sup>3</sup>+5<sup>3</sup>+3<sup>3</sup>=153
+        </p>
+        <div>
+            <img src="4Python可以这样学.png" width="200" height="300" />
+            <img src="http://www.tup.tsinghua.edu.cn/upload/bigbookimg/072406-01.jpg" width="200" height="300" border="1" />
+        </div>
+        <br />
+        <div id="yellowDiv" style="background-color:#FFFF88;border:#FF0000 1px solid;">
+            面向计算机专业相关的Python教材
+            <ol id="books1" name="books1" type="1">
+                <li onclick="btnClick()">Python程序设计（第3版），董付国，清华大学出版社</li>
+                <li>Python程序设计（第2版），董付国，清华大学出版社</li>
+                <li>Python网络程序设计，董付国，清华大学出版社</li>
+            </ol>
+            面向非计算机专业相关的Python教材
+            <ol id="books2" name="books2" type="A">
+                <li>Python程序设计基础（第2版），董付国，清华大学出版社</li>
+                <li>玩转Python轻松过二级，董付国，清华大学出版社</li>
+            </ol>
+            面向初中高年级和高中低年级的Python图书
+            <ol id="books3" name="books3" type="a">
+                <li>中学生可以这样学Python（微课版），董付国，清华大学出版社</li>
+            </ol>
+            自学用书
+            <ol id="books4" name="books4" type="i">
+                <li>Python可以这样学，董付国，清华大学出版社</li>
+                <li>Python程序设计开发宝典，董付国，清华大学出版社</li>
+            </ol>
+        </div>
+        <div id="reddiv" style="background-color:red">
+            <p>第一段</p>
+            <p>第二段</p>
+        </div>
+    </body>
+</html>
